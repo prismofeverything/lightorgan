@@ -22,6 +22,8 @@ class lightorganApp : public AppBasic {
 	void setup();
     void midiIn( double deltatime, std::vector<unsigned char> *message, void *userData );
 	void mouseDown( MouseEvent event );	
+    void keyDown( KeyEvent event );
+    void keyUp( KeyEvent event );
 	void update();
 	void draw();
 
@@ -49,6 +51,18 @@ void lightorganApp::midiIn( double deltatime, std::vector<unsigned char> *messag
     }
 }
 
+void lightorganApp::keyDown( KeyEvent event )
+{
+    unsigned char key = event.getChar();
+    organ->toneOn( key, 80 );
+}
+
+void lightorganApp::keyUp( KeyEvent event )
+{
+    unsigned char key = event.getChar();
+    organ->toneOn( key, 0 );
+}
+
 void lightorganApp::mouseDown( MouseEvent event )
 {
 }
@@ -69,7 +83,8 @@ void midiIn( double deltatime, std::vector<unsigned char> *message, void *userDa
     ((lightorganApp *) lightorgan)->midiIn( deltatime, message, userData );
 }
 
-int main( int argc, char * const argv[] ) {								
+int main( int argc, char * const argv[] ) 
+{
     AppBasic::prepareLaunch();							
     lightorgan = new lightorganApp();
     Renderer *ren = new RendererGl();							

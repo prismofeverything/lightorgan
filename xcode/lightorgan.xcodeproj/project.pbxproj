@@ -15,6 +15,7 @@
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 		00BAE65A0E7ED9C10018A608 /* lightorganApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */; };
 		00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */; };
+		4010DCFB133AA25E00ED4AE0 /* Scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4010DCFA133AA25E00ED4AE0 /* Scale.cpp */; };
 		40BBB0BF12FE156900C551D7 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BBB0BE12FE156900C551D7 /* CoreMIDI.framework */; };
 		40BBB0EF12FE186100C551D7 /* LightOrgan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40BBB0EC12FE186100C551D7 /* LightOrgan.cpp */; };
 		40BBB0F012FE186100C551D7 /* LightTone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40BBB0ED12FE186100C551D7 /* LightTone.cpp */; };
@@ -39,6 +40,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* lightorgan_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lightorgan_Prefix.pch; sourceTree = "<group>"; };
+		4010DCFA133AA25E00ED4AE0 /* Scale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scale.cpp; path = ../src/Scale.cpp; sourceTree = SOURCE_ROOT; };
+		4010DCFC133AA26C00ED4AE0 /* Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scale.h; path = ../include/Scale.h; sourceTree = SOURCE_ROOT; };
 		40BBB0BE12FE156900C551D7 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
 		40BBB0E712FE184700C551D7 /* LightOrgan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightOrgan.h; path = ../include/LightOrgan.h; sourceTree = SOURCE_ROOT; };
 		40BBB0E812FE184700C551D7 /* LightTone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightTone.h; path = ../include/LightTone.h; sourceTree = SOURCE_ROOT; };
@@ -80,6 +83,7 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4010DCFA133AA25E00ED4AE0 /* Scale.cpp */,
 				40BBB0EC12FE186100C551D7 /* LightOrgan.cpp */,
 				40BBB0ED12FE186100C551D7 /* LightTone.cpp */,
 				40BBB0EE12FE186100C551D7 /* RtMidi.cpp */,
@@ -139,6 +143,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				4010DCFC133AA26C00ED4AE0 /* Scale.h */,
 				40BBB0E712FE184700C551D7 /* LightOrgan.h */,
 				40BBB0E812FE184700C551D7 /* LightTone.h */,
 				40BBB0E912FE184700C551D7 /* Resources.h */,
@@ -195,7 +200,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "lightorgan" */;
 			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* lightorgan */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,6 +237,7 @@
 				40BBB0EF12FE186100C551D7 /* LightOrgan.cpp in Sources */,
 				40BBB0F012FE186100C551D7 /* LightTone.cpp in Sources */,
 				40BBB0F112FE186100C551D7 /* RtMidi.cpp in Sources */,
+				4010DCFB133AA25E00ED4AE0 /* Scale.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

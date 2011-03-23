@@ -3,8 +3,10 @@
 
 class Scale {
  public:
-    Scale( float ratios[] );
+    Scale();
+    Scale( std::vector<float>& ratios );
     unsigned int cardinality();
+    float tone( int key );
 
     std::vector<float> tones;
-}
+};

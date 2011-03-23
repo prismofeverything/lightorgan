@@ -2,9 +2,9 @@
 {
 	00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {635, 1469}}";
-			sepNavSelRange = "{2596, 0}";
-			sepNavVisRange = "{264, 429}";
+			sepNavIntBoundsRect = "{{0, 0}, {705, 1599}}";
+			sepNavSelRange = "{2900, 0}";
+			sepNavVisRange = "{851, 876}";
 			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
 		};
 	};
@@ -20,6 +20,20 @@
 			40BBB08812FE150000C551D7 /* lightorgan */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					228.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -27,7 +41,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -42,30 +56,341 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 318641408;
-			PBXWorkspaceStateSaveDate = 318641408;
+			PBXPerProjectTemplateStateSaveDate = 322597341;
+			PBXWorkspaceStateSaveDate = 322597341;
 		};
 		perUserProjectItems = {
-			40BBB0AA12FE151F00C551D7 /* XCBuildMessageTextBookmark */ = 40BBB0AA12FE151F00C551D7 /* XCBuildMessageTextBookmark */;
-			40BBB0AB12FE151F00C551D7 /* PBXTextBookmark */ = 40BBB0AB12FE151F00C551D7 /* PBXTextBookmark */;
-			40BBB0B312FE152900C551D7 /* XCBuildMessageTextBookmark */ = 40BBB0B312FE152900C551D7 /* XCBuildMessageTextBookmark */;
-			40BBB0B412FE152900C551D7 /* PBXTextBookmark */ = 40BBB0B412FE152900C551D7 /* PBXTextBookmark */;
-			40BBB0C812FE160F00C551D7 /* XCBuildMessageTextBookmark */ = 40BBB0C812FE160F00C551D7 /* XCBuildMessageTextBookmark */;
-			40BBB0C912FE160F00C551D7 /* PBXTextBookmark */ = 40BBB0C912FE160F00C551D7 /* PBXTextBookmark */;
-			40BBB0D212FE162200C551D7 /* PBXTextBookmark */ = 40BBB0D212FE162200C551D7 /* PBXTextBookmark */;
-			40BBB0D712FE174A00C551D7 /* XCBuildMessageTextBookmark */ = 40BBB0D712FE174A00C551D7 /* XCBuildMessageTextBookmark */;
-			40BBB0D812FE174A00C551D7 /* PBXTextBookmark */ = 40BBB0D812FE174A00C551D7 /* PBXTextBookmark */;
-			40BBB0E312FE17BF00C551D7 /* PBXTextBookmark */ = 40BBB0E312FE17BF00C551D7 /* PBXTextBookmark */;
-			40BBB0FF12FF72B400C551D7 /* XCBuildMessageTextBookmark */ = 40BBB0FF12FF72B400C551D7 /* XCBuildMessageTextBookmark */;
-			40BBB10012FF72B700C551D7 /* PBXTextBookmark */ = 40BBB10012FF72B700C551D7 /* PBXTextBookmark */;
-			40BBB10312FF72B700C551D7 /* PBXTextBookmark */ = 40BBB10312FF72B700C551D7 /* PBXTextBookmark */;
-			40BBB10A12FF72CA00C551D7 /* PBXTextBookmark */ = 40BBB10A12FF72CA00C551D7 /* PBXTextBookmark */;
-			40BBB11512FFF82A00C551D7 /* PBXTextBookmark */ = 40BBB11512FFF82A00C551D7 /* PBXTextBookmark */;
-			40BBB12012FFF99400C551D7 /* PBXTextBookmark */ = 40BBB12012FFF99400C551D7 /* PBXTextBookmark */;
+			4010DCC5133A71F100ED4AE0 /* PBXTextBookmark */ = 4010DCC5133A71F100ED4AE0 /* PBXTextBookmark */;
+			4010DCCE133A73B400ED4AE0 /* XCBuildMessageTextBookmark */ = 4010DCCE133A73B400ED4AE0 /* XCBuildMessageTextBookmark */;
+			4010DCCF133A73CA00ED4AE0 /* PBXTextBookmark */ = 4010DCCF133A73CA00ED4AE0 /* PBXTextBookmark */;
+			4010DCD0133A73CA00ED4AE0 /* XCBuildMessageTextBookmark */ = 4010DCD0133A73CA00ED4AE0 /* XCBuildMessageTextBookmark */;
+			4010DCD1133A73CA00ED4AE0 /* PBXTextBookmark */ = 4010DCD1133A73CA00ED4AE0 /* PBXTextBookmark */;
+			4010DCD4133A73CA00ED4AE0 /* PBXTextBookmark */ = 4010DCD4133A73CA00ED4AE0 /* PBXTextBookmark */;
+			4010DCDA133A750E00ED4AE0 /* PBXTextBookmark */ = 4010DCDA133A750E00ED4AE0 /* PBXTextBookmark */;
+			4010DCE2133AA1E500ED4AE0 /* PBXTextBookmark */ = 4010DCE2133AA1E500ED4AE0 /* PBXTextBookmark */;
+			4010DCF2133AA24B00ED4AE0 /* PBXTextBookmark */ = 4010DCF2133AA24B00ED4AE0 /* PBXTextBookmark */;
+			4010DCF3133AA24B00ED4AE0 /* PBXTextBookmark */ = 4010DCF3133AA24B00ED4AE0 /* PBXTextBookmark */;
+			4010DCF5133AA24B00ED4AE0 /* PBXTextBookmark */ = 4010DCF5133AA24B00ED4AE0 /* PBXTextBookmark */;
+			4010DCF6133AA24B00ED4AE0 /* PBXTextBookmark */ = 4010DCF6133AA24B00ED4AE0 /* PBXTextBookmark */;
+			4010DCF7133AA24B00ED4AE0 /* XCBuildMessageTextBookmark */ = 4010DCF7133AA24B00ED4AE0 /* XCBuildMessageTextBookmark */;
+			4010DCF8133AA24B00ED4AE0 /* PBXTextBookmark */ = 4010DCF8133AA24B00ED4AE0 /* PBXTextBookmark */;
+			4010DD02133AA29B00ED4AE0 /* PBXTextBookmark */ = 4010DD02133AA29B00ED4AE0 /* PBXTextBookmark */;
+			4010DD03133AA29B00ED4AE0 /* XCBuildMessageTextBookmark */ = 4010DD03133AA29B00ED4AE0 /* XCBuildMessageTextBookmark */;
+			4010DD04133AA29B00ED4AE0 /* PBXTextBookmark */ = 4010DD04133AA29B00ED4AE0 /* PBXTextBookmark */;
+			4010DD09133AA98700ED4AE0 /* XCBuildMessageTextBookmark */ = 4010DD09133AA98700ED4AE0 /* XCBuildMessageTextBookmark */;
+			4010DD0A133AA98900ED4AE0 /* PBXTextBookmark */ = 4010DD0A133AA98900ED4AE0 /* PBXTextBookmark */;
+			4010DD0D133AA98900ED4AE0 /* PBXTextBookmark */ = 4010DD0D133AA98900ED4AE0 /* PBXTextBookmark */;
+			4010DD11133AA9A000ED4AE0 /* PBXTextBookmark */ = 4010DD11133AA9A000ED4AE0 /* PBXTextBookmark */;
+			4010DD15133AA9B000ED4AE0 /* PBXTextBookmark */ = 4010DD15133AA9B000ED4AE0 /* PBXTextBookmark */;
+			4010DD1B133AAA8300ED4AE0 /* XCBuildMessageTextBookmark */ = 4010DD1B133AAA8300ED4AE0 /* XCBuildMessageTextBookmark */;
+			4010DD1C133AAA9300ED4AE0 /* PBXTextBookmark */ = 4010DD1C133AAA9300ED4AE0 /* PBXTextBookmark */;
+			4010DD1F133AAA9300ED4AE0 /* PBXTextBookmark */ = 4010DD1F133AAA9300ED4AE0 /* PBXTextBookmark */;
+			4010DD22133AAAC600ED4AE0 /* PBXTextBookmark */ = 4010DD22133AAAC600ED4AE0 /* PBXTextBookmark */;
+			406B2A70130452AF00B9DCF9 = 406B2A70130452AF00B9DCF9 /* PBXTextBookmark */;
+			40E4B4D113029F010010FD23 = 40E4B4D113029F010010FD23 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 40BBB0B112FE151F00C551D7 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	4010DCC5133A71F100ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
+		name = "lightorganApp.cpp: 112";
+		rLen = 0;
+		rLoc = 2596;
+		rType = 0;
+		vrLen = 391;
+		vrLoc = 326;
+	};
+	4010DCCC133A73A100ED4AE0 /* stl_tree.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_tree.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_tree.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {829, 20020}}";
+			sepNavSelRange = "{2929, 0}";
+			sepNavVisRange = "{2586, 506}";
+			sepNavWindowFrame = "{{38, 994}, {750, 558}}";
+		};
+	};
+	4010DCCE133A73B400ED4AE0 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Multiple types in one declaration";
+		fRef = 40BBB0E712FE184700C551D7 /* LightOrgan.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 19;
+		rType = 1;
+	};
+	4010DCCF133A73CA00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
+		name = "lightorganApp.cpp: 112";
+		rLen = 0;
+		rLoc = 2596;
+		rType = 0;
+		vrLen = 391;
+		vrLoc = 326;
+	};
+	4010DCD0133A73CA00ED4AE0 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Multiple types in one declaration";
+		fRef = 40BBB0E712FE184700C551D7 /* LightOrgan.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 19;
+		rType = 1;
+	};
+	4010DCD1133A73CA00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40BBB0E712FE184700C551D7 /* LightOrgan.h */;
+		name = "LightOrgan.h: 20";
+		rLen = 0;
+		rLoc = 526;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 91;
+	};
+	4010DCD4133A73CA00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40BBB0E712FE184700C551D7 /* LightOrgan.h */;
+		name = "LightOrgan.h: 20";
+		rLen = 0;
+		rLoc = 526;
+		rType = 0;
+		vrLen = 529;
+		vrLoc = 0;
+	};
+	4010DCDA133A750E00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40BBB0E712FE184700C551D7 /* LightOrgan.h */;
+		name = "LightOrgan.h: 21";
+		rLen = 0;
+		rLoc = 535;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 91;
+	};
+	4010DCE2133AA1E500ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40BBB0E712FE184700C551D7 /* LightOrgan.h */;
+		name = "LightOrgan.h: 21";
+		rLen = 0;
+		rLoc = 529;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 91;
+	};
+	4010DCF2133AA24B00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
+		name = "lightorganApp.cpp: 14";
+		rLen = 24;
+		rLoc = 377;
+		rType = 0;
+		vrLen = 469;
+		vrLoc = 0;
+	};
+	4010DCF3133AA24B00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4010DCF4133AA24B00ED4AE0 /* map */;
+		name = "map: 65";
+		rLen = 27;
+		rLoc = 2657;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	4010DCF4133AA24B00ED4AE0 /* map */ = {
+		isa = PBXFileReference;
+		name = map;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/map";
+		sourceTree = "<absolute>";
+	};
+	4010DCF5133AA24B00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4010DCCC133A73A100ED4AE0 /* stl_tree.h */;
+		name = "stl_tree.h: 75";
+		rLen = 0;
+		rLoc = 2929;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 2586;
+	};
+	4010DCF6133AA24B00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40BBB0EC12FE186100C551D7 /* LightOrgan.cpp */;
+		name = "LightOrgan.cpp: 1";
+		rLen = 24;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
+	4010DCF7133AA24B00ED4AE0 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "In file included from /Users/rspangler/Projects/lightorgan/xcode/../include/LightOrgan.h";
+		fRef = 40BBB0E712FE184700C551D7 /* LightOrgan.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 7;
+		rType = 1;
+	};
+	4010DCF8133AA24B00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40BBB0E712FE184700C551D7 /* LightOrgan.h */;
+		name = "LightOrgan.h: 8";
+		rLen = 15;
+		rLoc = 169;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 13;
+	};
+	4010DCFA133AA25E00ED4AE0 /* Scale.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 468}}";
+			sepNavSelRange = "{413, 0}";
+			sepNavVisRange = "{0, 200}";
+			sepNavWindowFrame = "{{61, 973}, {750, 558}}";
+		};
+	};
+	4010DCFC133AA26C00ED4AE0 /* Scale.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{202, 0}";
+			sepNavVisRange = "{0, 202}";
+			sepNavWindowFrame = "{{84, 952}, {750, 558}}";
+		};
+	};
+	4010DD02133AA29B00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 40BBB0E712FE184700C551D7 /* LightOrgan.h */;
+		name = "LightOrgan.h: 21";
+		rLen = 0;
+		rLoc = 529;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 91;
+	};
+	4010DD03133AA29B00ED4AE0 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected primary-expression before '{' token";
+		fRef = 4010DCFA133AA25E00ED4AE0 /* Scale.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 6;
+		rType = 1;
+	};
+	4010DD04133AA29B00ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4010DCFA133AA25E00ED4AE0 /* Scale.cpp */;
+		name = "Scale.cpp: 15";
+		rLen = 0;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 182;
+		vrLoc = 0;
+	};
+	4010DD09133AA98700ED4AE0 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'key' has not been declared";
+		fRef = 4010DCFC133AA26C00ED4AE0 /* Scale.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 8;
+		rType = 1;
+	};
+	4010DD0A133AA98900ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4010DCFA133AA25E00ED4AE0 /* Scale.cpp */;
+		name = "Scale.cpp: 28";
+		rLen = 0;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 0;
+	};
+	4010DD0D133AA98900ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4010DCFC133AA26C00ED4AE0 /* Scale.h */;
+		name = "Scale.h: 9";
+		rLen = 0;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	4010DD11133AA9A000ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4010DCFA133AA25E00ED4AE0 /* Scale.cpp */;
+		name = "Scale.cpp: 28";
+		rLen = 0;
+		rLoc = 406;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 0;
+	};
+	4010DD15133AA9B000ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4010DCFA133AA25E00ED4AE0 /* Scale.cpp */;
+		name = "Scale.cpp: 28";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 200;
+		vrLoc = 0;
+	};
+	4010DD1B133AAA8300ED4AE0 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No 'void lightorganApp::keyDown(cinder::app::KeyEvent)' member function declared in class 'lightorganApp'";
+		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 51;
+		rType = 1;
+	};
+	4010DD1C133AAA9300ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4010DCFA133AA25E00ED4AE0 /* Scale.cpp */;
+		name = "Scale.cpp: 28";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 235;
+		vrLoc = 0;
+	};
+	4010DD1F133AAA9300ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
+		name = "lightorganApp.cpp: 52";
+		rLen = 0;
+		rLoc = 1362;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 1019;
+	};
+	4010DD22133AAAC600ED4AE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4010DCFA133AA25E00ED4AE0 /* Scale.cpp */;
+		name = "Scale.cpp: 28";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 200;
+		vrLoc = 0;
+	};
+	406B2A70130452AF00B9DCF9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
+		name = "lightorganApp.cpp: 112";
+		rLen = 0;
+		rLoc = 2596;
+		rType = 0;
+		vrLen = 391;
+		vrLoc = 326;
 	};
 	40BBB08812FE150000C551D7 /* lightorgan */ = {
 		isa = PBXExecutable;
@@ -97,25 +422,6 @@
 		sourceDirectories = (
 		);
 	};
-	40BBB0AA12FE151F00C551D7 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "RtMidi.h: No such file or directory";
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 12;
-		rType = 1;
-	};
-	40BBB0AB12FE151F00C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		name = "lightorganApp.cpp: 13";
-		rLen = 0;
-		rLoc = 357;
-		rType = 0;
-		vrLen = 469;
-		vrLoc = 0;
-	};
 	40BBB0B112FE151F00C551D7 /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
@@ -130,149 +436,31 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	40BBB0B312FE152900C551D7 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "RtMidi.h: No such file or directory";
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 12;
-		rType = 1;
-	};
-	40BBB0B412FE152900C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		name = "lightorganApp.cpp: 13";
-		rLen = 0;
-		rLoc = 357;
-		rType = 0;
-		vrLen = 402;
-		vrLoc = 0;
-	};
-	40BBB0C812FE160F00C551D7 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "No matching function for call to 'createCallback(LightOrgan&, void (LightOrgan::*)(uint64_t, uint32_t, cinder::audio::Buffer32f*), bool)'";
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 32;
-		rType = 1;
-	};
-	40BBB0C912FE160F00C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		name = "lightorganApp.cpp: 112";
-		rLen = 0;
-		rLoc = 2594;
-		rType = 0;
-		vrLen = 510;
-		vrLoc = 469;
-	};
-	40BBB0D212FE162200C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		name = "lightorganApp.cpp: 112";
-		rLen = 0;
-		rLoc = 2596;
-		rType = 0;
-		vrLen = 454;
-		vrLoc = 422;
-	};
-	40BBB0D712FE174A00C551D7 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Request for member 'control' in '((lightorganApp*)this)->lightorganApp::organ', which is of non-class type 'LightOrgan*'";
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 43;
-		rType = 1;
-	};
-	40BBB0D812FE174A00C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		name = "lightorganApp.cpp: 112";
-		rLen = 0;
-		rLoc = 2596;
-		rType = 0;
-		vrLen = 540;
-		vrLoc = 876;
-	};
-	40BBB0E312FE17BF00C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		name = "lightorganApp.cpp: 112";
-		rLen = 0;
-		rLoc = 2599;
-		rType = 0;
-		vrLen = 392;
-		vrLoc = 357;
+	40BBB0E712FE184700C551D7 /* LightOrgan.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {628, 273}}";
+			sepNavSelRange = "{529, 0}";
+			sepNavVisRange = "{91, 438}";
+			sepNavWindowFrame = "{{15, 1015}, {750, 558}}";
+		};
 	};
 	40BBB0EC12FE186100C551D7 /* LightOrgan.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {761, 780}}";
-			sepNavSelRange = "{1580, 0}";
-			sepNavVisRange = "{451, 1121}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 897}}";
+			sepNavSelRange = "{236, 0}";
+			sepNavVisRange = "{0, 900}";
 			sepNavWindowFrame = "{{38, 594}, {750, 558}}";
 		};
 	};
-	40BBB0FF12FF72B400C551D7 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'level' was not declared in this scope";
-		fRef = 40BBB0EC12FE186100C551D7 /* LightOrgan.cpp */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 35;
-		rType = 1;
-	};
-	40BBB10012FF72B700C551D7 /* PBXTextBookmark */ = {
+	40E4B4D113029F010010FD23 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
 		name = "lightorganApp.cpp: 112";
 		rLen = 0;
 		rLoc = 2596;
 		rType = 0;
-		vrLen = 453;
-		vrLoc = 264;
-	};
-	40BBB10312FF72B700C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 40BBB0EC12FE186100C551D7 /* LightOrgan.cpp */;
-		name = "LightOrgan.cpp: 36";
-		rLen = 0;
-		rLoc = 791;
-		rType = 0;
-		vrLen = 811;
-		vrLoc = 170;
-	};
-	40BBB10A12FF72CA00C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		name = "lightorganApp.cpp: 112";
-		rLen = 0;
-		rLoc = 2596;
-		rType = 0;
-		vrLen = 429;
-		vrLoc = 264;
-	};
-	40BBB11512FFF82A00C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		name = "lightorganApp.cpp: 112";
-		rLen = 0;
-		rLoc = 2596;
-		rType = 0;
-		vrLen = 429;
-		vrLoc = 264;
-	};
-	40BBB12012FFF99400C551D7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* lightorganApp.cpp */;
-		name = "lightorganApp.cpp: 112";
-		rLen = 0;
-		rLoc = 2596;
-		rType = 0;
-		vrLen = 429;
-		vrLoc = 264;
+		vrLen = 417;
+		vrLoc = 300;
 	};
 	8D1107260486CEB800E47090 /* lightorgan */ = {
 		activeExec = 0;

@@ -11,26 +11,30 @@ using namespace std;
 #define HEXAGON 0.866
 
 LightOrgan::LightOrgan()
-    : cap(0.8f)
+    : cap(0.8f),
+      basis(30.0f)
 {
-    // scale = Scale();
+    vector<float> tones;
+    for ( int r = 0; r < 19; r++ ) {
+        tones.push_back( pow( 2.0f, r / 19.0f ) );
+    }
+    scale = Scale( tones );
 }
 
 void LightOrgan::toneOn( unsigned char key, unsigned char velocity ) 
 {
     std::map<unsigned char, LightTone>::iterator tone = tones.find( key );
-
     if ( tone == tones.end() ) {
         if ( velocity > 0 ) {
-            LightTone light = LightTone( pow( 2.0f, key / 12.0f ) * 4.0f, velocity / 128.0f );
-            tones.insert( std::pair<unsigned char, LightTone>( key, light ) ); 
+            LightTone light = LightTone( scale.tone( key ) * basis, velocity / 128.0f );
+            tones.insert( std::pair<unsigned char, LightTone>( key, light ) );
         }
     } else {
         if ( velocity == 0 ) {
             tone->second.off();
         } else {
             if ( tone->second.over ) tone->second.over = false;
-            tone->second.point( 256.0f / velocity, 0.0001f );
+            tone->second.point( velocity / 128.0f, 0.0001f );
         }
     }
 }

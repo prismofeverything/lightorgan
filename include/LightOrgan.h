@@ -4,7 +4,7 @@
 #include "cinder/Rand.h"
 #include "cinder/audio/PcmBuffer.h"
 #include "LightTone.h"
-// #include "Scale.h"
+#include "Scale.h"
 #include <map>
 
 class LightOrgan {
@@ -14,7 +14,8 @@ class LightOrgan {
     void control( unsigned char code, unsigned char velocity );
     void generateAudio( uint64_t offset, uint32_t count, ci::audio::Buffer32f *buffer );
 
-    // Scale scale;
+    Scale scale;
     std::map<unsigned char, LightTone> tones;
     float cap;
+    float basis;
 };
